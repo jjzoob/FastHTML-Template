@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+.sesskey
+
+.python-version
+
+# Exclude Alembic migration versions
+migrations/versions/*
+
+# Exclude SQLite database files
+*.sqlite
+*.sqlite3
+*.db
